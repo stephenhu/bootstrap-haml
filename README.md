@@ -1,13 +1,12 @@
 # bootstrap-haml
 
-bootstrap haml template - provides a minimal set of haml templates that leverage
-bootstrap to jumpstart web development, can be used with static site generators
-such as [zizu](http://github.com/stephenhu/zizu).
+provides a minimal set of haml templates which leverage bootstrap to jumpstart web development.
+can be used with static site generators such as [zizu](http://github.com/stephenhu/zizu).
 
 
 ## requirements
 
-* bootstrap (tested with 2.2.2)
+* bootstrap (tested with version 2.2.2)
 * haml
 
 
@@ -23,5 +22,5 @@ and unzip to the top level of the bootstrap-haml directory.
 ## convention
 
 all 3rd party components like bootstrap or jquery should be stored in the top level
-directory e.g. bootstrap-haml/bootstrap and boostrap-haml/jquery
+directory e.g. bootstrap-haml/bootstrap, boostrap-haml/jquery
 

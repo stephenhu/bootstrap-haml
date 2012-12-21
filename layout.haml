@@ -1,0 +1,13 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %title company
+    %link{:rel => "stylesheet", :href => url("styles/style.css")}
+    %link{:rel => "stylesheet", :href => url("bootstrap/css/bootstrap.css")}
+    %script{:src => url("scripts/script.js")}
+    %script{:src => url("bootstrap/js/bootstrap.js")}
+  %body
+    = haml :navbar
+    = yield :index
+  = haml :footer
+
